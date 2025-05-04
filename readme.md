@@ -2,6 +2,11 @@
 
 This project uses an SSD-based object detection model from TensorFlow Hub to detect dogs in images. The model is pre-trained on the Open Images V4 dataset and uses MobileNet V2 (pre-trained on ImageNet) as the image feature extractor.
 
+
+# DATASET
+The dataset used in this project is from the https://www.kaggle.com/c/dog-breed-identification/data.
+It contains labeled images of dogs across multiple breeds, and is used for training and evaluating the breed classification model.
+
 ## Model Overview
 
 - **Model Used:** SSD (Single Shot MultiBox Detector)
